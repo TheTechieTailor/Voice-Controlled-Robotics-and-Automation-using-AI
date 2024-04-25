@@ -5,8 +5,22 @@ This project demonstrates the integration of advanced natural language processin
 ## Project Components
 
 - **Maqueen Robot**: A small, versatile robot controlled by a micro:bit.
+<div style="text-align:center;">
+  <img src="https://github.com/TheTechieTailor/Voice-Controlled-Robotics-and-Automation-using-AI/assets/164169172/ee232df1-e728-4cc0-b923-8d05c5303cee" style="width:50%;height:auto;">
+</div>
+
 - **Micro:bit**: A microcontroller used for executing commands on the Maqueen robot.
+
+![image](https://github.com/TheTechieTailor/Voice-Controlled-Robotics-and-Automation-using-AI/assets/164169172/4b19107e-7f25-40b5-8b07-5df635910189)
+
+  
 - **Raspberry Pi**: Serves as the central processing unit, handling speech-to-text, command interpretation with OpenAI API, and command transmission.
+
+<div style="text-align:center;">
+  <img src="https://github.com/TheTechieTailor/Voice-Controlled-Robotics-and-Automation-using-AI/assets/164169172/cd25164d-01a6-4642-aab6-ff7add67692c" style="width:30%;height:auto;">
+</div>
+
+
 - **Speech-to-Text Service**: Implemented locally on the Raspberry Pi or through cloud services such as Google Cloud Speech-to-Text.
 - **OpenAI API**: Processes the text to understand commands and generate appropriate responses.
 - **Command Translator**: Custom scripts on the Raspberry Pi translate OpenAI's responses into actions for the Maqueen robot.
